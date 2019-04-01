@@ -1,0 +1,478 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.text1{
+    color: #fa2500;
+    margin-left: 40px;
+}
+.text0{
+    font-size: 14px;
+    margin-left: 44px;
+    margin-top: -15px;
+    color: #8A2BE2;
+}
+.caldeira{
+    height: 40px;
+}
+.number1{
+    font-size: 26px;
+    color: #fa2500;
+    margin-top: 11px;
+}
+#busca{
+    margin-left: 40%;
+    margin-top: -5%;{
+
+    }
+    #busca {
+    margin:0 auto;
+    padding:0;
+}
+    #txtbusca {
+    border:0px solid #222;
+    background:#EEE;
+    width:260px;
+    height:23px;
+    margin:0 auto;
+    padding:7px 0 7px 7px;
+    float:left; // posição do campo
+    line-height:36px; // altura da linha
+    }
+    
+    #btnBusca {
+    background:#00cccc;
+    position:relative;
+    border:0px solid #222;
+    color:#FFF; 
+    margin:0 auto;
+    padding:10px;
+    border:0 none;
+    font-size:11px;
+    font-weight:bold;
+    text-transform:uppercase;
+    }
+    #btnBusca:hover {
+    background:#99cccc; 
+    }
+<style>
+
+}
+.text2{
+    margin-left: 66%;
+    margin-top: -5%;
+    color: #fa2500;
+}
+.text3{
+    margin-left: 85%;
+    margin-top: -6%;
+    display: flex;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#8A2BE2;
+    list-style:none;
+    margin-top:-45px;
+}
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 25px 50px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#8A2BE2;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom:3px solid #8A2BE2;
+}
+    #menu ul li a:hover {
+    background-color:#8A2BE2;
+    color: #fa2500;
+    border-bottom:3px solid #8A2BE2;
+}
+.menuh{
+    display: none;
+}
+.potions{
+    color: #000000;
+    margin-left: 52px;
+    font-size: 22px;
+    padding: 30px;
+}
+.pimagens{
+    list-style: none;
+    display: flex;
+}
+.poçoes, .pimagens li{
+    display: inline;
+    
+}
+.aging{
+    margin-left: 15%;
+}
+.aaging{
+    cursor: pointer;
+    height:250px;
+    margin-left:20%;
+}
+.agingtext{
+    cursor: pointer;
+    margin-left: 90px;
+}
+.agingnumber{
+    cursor: pointer;
+    color:#fa2500;
+
+}
+.bbulgeye{
+    cursor: pointer;
+    height: 250px;
+}
+.bulgeyetext{
+    cursor: pointer;
+    margin-left: -86%;
+}
+.bulgeyenumber{
+    cursor: pointer;
+    color: #fa2500;
+}
+.ddragon{
+    cursor: pointer;
+    height:250px;
+}
+.dragontext{
+    cursor: pointer;
+    margin-left: -81%;
+}
+.dragonnumber{
+    cursor: pointer;
+    color:#fa2500;
+}
+.llove{
+    cursor: pointer;
+    height:250px;
+    margin-top:160%;
+    margin-left:-299%;
+}
+.lovetext{
+    cursor: pointer;
+    margin-left:-85%;
+}
+.lovenumber{
+    cursor: pointer;
+    color: #fa2500;
+}
+.ppoly{
+    cursor: pointer;
+    height:250px;
+    margin-top:160%;
+    margin-left:-299%;
+}
+.polytext{
+    cursor: pointer;
+    margin-left: -91%
+}
+.polynumber{
+    cursor: pointer;
+    color: #fa2500;
+}
+.ssleeping{
+    cursor: pointer;
+    height:250px;
+    margin-top:160%;
+    margin-left:-299%;
+}
+.sleetext{
+    cursor: pointer;
+    margin-left: -85%;
+}
+.sleecolor{
+    cursor: pointer;
+    color: #fa2500;
+}
+.contato{
+    display: flex;
+}
+.contato li{
+    margin: 5%;
+    width: 50%;
+    height: 50%;
+    padding: 4%;
+    float: left;
+    margin-left: 5%;
+    color: #fa2500;
+    font-size: 1.5em;
+}
+.redes{
+    display: ruby-text;
+    cursor: pointer;
+    margin-left: -10%;
+    background-color: #d3d3d3;
+}
+.redes-sociais{
+    margin-left:37%;
+    background-color: #d3d3d3;
+    margin-left: 13%;
+}
+
+.icone1{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    padding: 44px;
+    border-radius: 50%;
+}
+.icone2{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.icone3{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    padding: 44px;
+    border-radius: 50%;
+}
+.icone4{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.icone5{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    padding: 44px;
+    border-radius: 50%;
+}
+p{  
+    float: left;
+    margin-left: 5%;
+    color: #fa2500;
+    font-size: 1.5em;
+}
+.botão{
+    color: #fff;background-color: #fa2500;
+}
+footer{
+    background-color: #d3d3d3;
+}
+.sign{
+    width: 36%;
+    height: 50%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: -13%;
+    border-radius: 5%;
+    list-style: none;
+    font-size: 19px;
+    margin-left: 56%;
+}
+.fundo{
+    background-color: #d3d3d3
+}
+.wrap-menu{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+   .text1{
+      display: flex;
+      align-items: baseline;
+      width: 49px;
+      text-align: center;
+    margin-left: 114px
+   }
+   .text0{
+       display: flex;
+       font-size: 12px;
+       margin-left: 75px;
+   }
+   #busca{
+       display: flex;
+       margin-left: 100%
+   }
+   .text2{
+       display: flex;
+       margin-left: 100%;
+   }
+   .text3{
+    margin-left: 74%;
+    margin-top: -42%;
+    display: flex;}
+
+   #menu ul li { display: none; }
+     
+   .menuh{
+         color: #fff;
+         background-color: #8A2BE2;
+         list-style: none;
+         font-family: cursive;
+         cursor: pointer;
+         display: none;
+         transition: .5s ease-in-out;
+     }
+     .menuh.active{
+        display: block;
+     }
+     .menuh :hover {
+        background-color:#8A2BE2;
+        color: #fa2500;
+        border-bottom:3px solid #8A2BE2;}
+
+        .aaging {
+            cursor: pointer;
+            height: 150px;
+            margin-left: -30%;}
+
+            .agingtext {
+            cursor: pointer;
+            margin-left: -140px;}
+
+            .bbulgeye {
+                cursor: pointer;
+                height: 149px;
+            }
+            .bulgeyetext {
+                cursor: pointer;
+                margin-left: -110%;
+            }
+            .ddragon {
+                cursor: pointer;
+                height: 149px;
+                margin-left: -230%;
+                margin-top: 160px;
+            }
+            .dragontext {
+                cursor: pointer;
+                margin-left: -94%;
+            }
+            .llove {
+                cursor: pointer;
+                height: 149px;
+                margin-top: 107%;
+                margin-left: -199%;
+            }
+            .lovetext {
+                cursor: pointer;
+                margin-left: -99%;
+            }
+            .ppoly {
+                cursor: pointer;
+                height: 149px;
+                margin-top: 220%;
+                margin-left: -429%;
+            }
+            .polytext{
+                margin-left: -107%;
+            }
+            .ssleeping {
+                cursor: pointer;
+                height: 149px;
+                margin-top: 220%;
+                margin-left: -396%;
+            }
+            .sleetext {
+                cursor: pointer;
+                margin-left: -121%;
+            }
+            .contato {
+                display: none;
+            }
+            .potions {
+                color: #000000;
+                margin-left: 122px;
+                font-size: 22px;
+                padding: 30px;
+            }
+            .icone1 {
+                display: flex;
+                width: 5px;
+                height: 35px;
+                padding: 40px;
+                border-radius: 50%;
+                margin-left: 20%;
+            }
+            .icone2 {
+                display: flex;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+            }
+            .icone3 {
+                display: flex;
+                width: 35px;
+                height: 35px;
+                padding: 10px;
+                border-radius: 50%;
+            }
+            .icone4 {
+                display: flex;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+            }
+            .icone5 {
+                display: flex;
+                width: 30px;
+                height: 35px;
+                padding: 10px;
+                border-radius: 50%;
+            }
+            .redes-sociais {
+                margin-left: 37%;
+                background-color: #d3d3d3;
+                margin-left: -15%;
+            }
+            .redes {
+                display: ruby-text;
+                cursor: pointer;
+                margin-left: -10%;
+                background-color: #d3d3d3;
+                margin-top: 200px;
+            }
+            .sign {
+                width: 76%;
+                height: 50%;
+                background-color: white;
+                margin: 0 auto;
+                margin-top: 0px;
+                margin-left: auto;
+                margin-top: -73%;
+                border-radius: 5%;
+                list-style: none;
+                font-size: 20px;
+                margin-left: 15%;
+            }
+            .sign li {
+                list-style: none;
+                font-size: 20px;}
+            
+            .search{
+                text-align: center;
+            }
+            .h7{
+                margin-left: 10%;
+            }
+            .cp{
+                    margin-left: 30px;
+                    color: gray;
+            }
+}
+    
+
+
+
+
+
+
+    
+
+
